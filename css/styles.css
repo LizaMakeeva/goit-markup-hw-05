@@ -543,9 +543,7 @@ ul {
   justify-content: center;
   width: 24px;
   height: 24px;
-}
-.svg-modal-close {
-  fill: #000;
+  color: #2e2f42;
 }
 .is-hidden {
   opacity: 0;
@@ -556,9 +554,8 @@ ul {
   transform: translate(-50%, -50%) scale(0);
 }
 .modal-close:hover,
-.modal-close:focus,
-.svg-modal-close:hover,
-.svg-modal-close:focus {
+.modal-close:focus {
   background-color: #404bbf;
-  fill: #fff;
+  color: #ffffff;
+  fill: currentColor;
 }
