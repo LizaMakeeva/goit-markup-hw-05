@@ -60,7 +60,9 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
-          <button type="button" class="button-hero">Order Service</button>
+          <button type="button" data-modal-open class="button-hero">
+            Order Service
+          </button>
         </div>
       </section>
       <section class="advantages-container padding-for-section-index">
@@ -438,9 +440,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close">
+        <button type="button" data-modal-close class="modal-close">
           <svg class="svg-modal-close" width="8" height="8">
             <use href="./images/symbol-defs-modal-copy.svg#icon-vector"></use>
           </svg>
